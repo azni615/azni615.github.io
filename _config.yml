@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Z.W. Miller
-tagline:             A Moderately Okay Data Science Blog
-url:                 http://zwmiller.github.io
+title:               From A to Z,
+tagline:             Stuck in the middle with you
+url:                 https://azni615.github.io/
 paginate:            2
 baseurl:             ""
 
@@ -17,14 +17,14 @@ sass:
 
 # About/contact
 author:
-  name:              Zach Miller
+  name:              A. Z. Ni
   url:               https://twitter.com/zaglamir
-  email:             zach@thisismetis.com
+  email:             azni615@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/zwmiller
+  repo:              https://github.com/azni615/
 
 # Gems
 gems:

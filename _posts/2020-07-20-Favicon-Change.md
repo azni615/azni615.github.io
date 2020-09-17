@@ -32,3 +32,5 @@ That line of code says "favicon". So all that needed to be done was to change it
 ```
 
 I probably will have to make an "apple touch icon" later, but for now, I'm pretty happy.
+
+P.S. Another thing I learned is that if any extra linebreaks or characters are on the Index.html file, it can break and not be parsed properly.

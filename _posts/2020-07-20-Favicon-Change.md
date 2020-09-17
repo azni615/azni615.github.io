@@ -22,22 +22,13 @@ Poking around a bit more, I found a folder labeled "_includes" which had "head.h
 Lo and behold, there was this line of code in it:
 
 ```
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-```
-**
-```
-
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-```
-**
-```
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+<link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
 ```
 
 That line of code says "favicon". So all that needed to be done was to change it to refer to my favicon file and the location it was located at...
 
 ```
-  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
 ```
 
 I probably will have to make an "apple touch icon" later, but for now, I'm pretty happy.

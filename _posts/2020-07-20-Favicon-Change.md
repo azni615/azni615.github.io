@@ -37,7 +37,7 @@ Lo and behold, there was this line of code in it:
 That line of code says "favicon". So all that needed to be done was to change it to refer to my favicon file and the location it was located at...
 
 ```
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
 ```
 
 I probably will have to make an "apple touch icon" later, but for now, I'm pretty happy.

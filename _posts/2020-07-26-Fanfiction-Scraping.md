@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fanfiction Scraping
+title: Fanfiction Scraping Prelude
 ---
 
 What makes web fiction successful?
@@ -99,3 +99,11 @@ class Scraper:
         self.rate_limit = 5
         self.parser = "html.parser"
 ```
+
+More code with the different regex's and functions to handle the different subsections of the HTML file scraped into BeautifulSoup can be found on my github.
+
+It was at this point where I realized I needed to use NLP to make sense of the words in the descriptions, titles, and "pairings" of the bag-of-words scraped by my scraping functions.
+
+At this point in time, I didn't know how NLP worked, so I set out to find out.
+
+I'll go more into it in a later blogpost!
